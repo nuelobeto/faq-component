@@ -39,6 +39,7 @@ body {
   margin: 0 auto;
   display: flex;
   position: relative;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 0.4);
 }
 
 .img-desktop {
@@ -165,6 +166,7 @@ body {
     flex-direction: column;
     aspect-ratio: 0;
     background: none;
+    box-shadow: none;
   }
 
   .img-desktop {
@@ -187,6 +189,7 @@ body {
     background-repeat: no-repeat;
     background-size: 70%;
     background-position: center top;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 0.4);
   }
 
   .faq h1 {
